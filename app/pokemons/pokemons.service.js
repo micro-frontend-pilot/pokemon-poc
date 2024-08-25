@@ -6,5 +6,4 @@ export default class PokemonsService {
   getPokemons() {
     return this.$http.get('https://raw.githubusercontent.com/PokemonGOAPI/PokemonDataGraber/master/output.json')
   }
-
 }
